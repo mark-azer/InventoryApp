@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Name for the application [CHAR LIMIT=12] -->
+    <string name="app_name">Movies</string>
+
+    <!-- Label for overflow menu option that deletes all movie data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Movies</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a movie [CHAR LIMIT=50] -->
+    <string name="empty_view_text">Get started by adding a movie</string>
+
+    <!-- Title for the activity to add a new movie [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_movie">Add a Movie</string>
+
+    <!-- Title for the activity to edit an existing movie [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_movie">Edit Movie</string>
+
+    <!-- Label for editor menu option to save movie and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor menu option to order more movies and leave editor [CHAR LIMIT=20] -->
+    <string name="action_order_more">Order More</string>
+
+    <!-- Label for editor overflow menu option that deletes the current movie [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Toast message in editor when new movie has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_movie_successful">Movie saved</string>
+
+    <!-- Toast message in editor when new movie has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_movie_failed">Error with saving movie</string>
+
+    <!-- Toast message in editor when current movie was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_movie_successful">Movie updated</string>
+
+    <!-- Toast message in editor when current movie has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_movie_failed">Error with updating movie</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current movie [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when current movie was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_movie_successful">Movie deleted</string>
+
+    <!-- Toast message in editor when current movie has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_movie_failed">Error with deleting movie</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current movie [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this movie?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current movie [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current movie [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Label for movie name category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_name">Movie Name</string>
+
+    <!-- Label for movie price category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_price">Price</string>
+
+    <!-- Label for quantity information in the editor [CHAR LIMIT=30] -->
+    <string name="category_quantity">Quantity Available</string>
+
+    <!-- Label for supplier name in the editor [CHAR LIMIT=30] -->
+    <string name="category_supplier">Supplier Name</string>
+
+    <!-- Label for image url in the editor [CHAR LIMIT=30] -->
+    <string name="category_image">Image</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_movie_name">Name</string>
+
+    <!-- Text hint for price field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_movie_price">Price</string>
+
+    <!-- Text hint for supplier field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_movie_supplier">Supplier</string>
+
+    <!-- Text hint for image url field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_movie_image_url">URL</string>
+
+    <!-- Text for sell button in the editor [CHAR LIMIT=30] -->
+    <string name="button_sell">Sell</string>
+
+    <!-- Text for shipment received button in the editor [CHAR LIMIT=30] -->
+    <string name="button_shipment_received">Shipment Received</string>
+
+    <!-- Text for the get photo button in the editor [CHAR LIMIT=30] -->
+    <string name="button_get_photo">Get Photo</string>
+</resources>
+
