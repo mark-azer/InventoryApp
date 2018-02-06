@@ -10,141 +10,135 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:padding="@dimen/activity_margin">
+        android:orientation="vertical">
 
-        <!-- Name category -->
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"/>
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/activity_margin">
 
-            <!-- Label -->
-            <TextView
-                android:text="@string/category_name"
-                style="@style/CategoryStyle" />
+            <!-- Name category -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
-            <!-- Name field -->
-            <EditText
-                android:id="@+id/edit_movie_name"
-                android:hint="@string/hint_movie_name"
-                android:layout_width="0dp"
-                android:layout_weight="2"
-                android:paddingLeft="4dp"
-                android:inputType="textCapWords"
-                style="@style/EditorFieldStyle" />
+                <!-- Label -->
+                <TextView
+                    android:text="@string/category_name"
+                    style="@style/CategoryStyle" />
 
-        </LinearLayout>
+                <!-- Name field -->
+                <EditText
+                    android:id="@+id/edit_movie_name"
+                    android:hint="@string/hint_movie_name"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:paddingLeft="4dp"
+                    android:inputType="textCapWords"
+                    style="@style/EditorFieldStyle" />
 
-        <!-- Price category -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            </LinearLayout>
 
-            <!-- Label -->
-            <TextView
-                android:text="@string/category_price"
-                style="@style/CategoryStyle" />
+            <!-- Price category -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
-            <!-- Price field -->
-            <EditText
-                android:id="@+id/edit_movie_price"
-                android:hint="@string/hint_movie_price"
-                android:layout_width="0dp"
-                android:layout_weight="2"
-                android:paddingLeft="4dp"
-                android:inputType="numberDecimal"
-                style="@style/EditorFieldStyle" />
+                <!-- Label -->
+                <TextView
+                    android:text="@string/category_price"
+                    style="@style/CategoryStyle" />
 
-        </LinearLayout>
+                <!-- Price field -->
+                <EditText
+                    android:id="@+id/edit_movie_price"
+                    android:hint="@string/hint_movie_price"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:paddingLeft="4dp"
+                    android:inputType="numberDecimal"
+                    style="@style/EditorFieldStyle" />
 
-        <!-- Quantity category -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            </LinearLayout>
 
-            <!-- Label -->
-            <TextView
-                android:text="@string/category_quantity"
-                style="@style/CategoryStyle" />
+            <!-- Quantity category -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
-            <!-- Quantity number -->
-            <TextView
-                android:id="@+id/quantity_available"
-                android:layout_width="0dp"
-                android:layout_weight="2"
-                android:paddingLeft="4dp"
-                style="@style/EditorFieldStyle"
-                android:textAlignment="center"
-                tools:text="2"/>
+                <!-- Label -->
+                <TextView
+                    android:text="@string/category_quantity"
+                    style="@style/CategoryStyle" />
 
-        </LinearLayout>
+                <!-- Quantity number -->
+                <TextView
+                    android:id="@+id/quantity_available"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:paddingLeft="4dp"
+                    style="@style/EditorFieldStyle"
+                    android:textAlignment="center"
+                    tools:text="2"/>
 
-        <!-- Supplier category -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            </LinearLayout>
 
-            <!-- Label -->
-            <TextView
-                android:text="@string/category_supplier"
-                style="@style/CategoryStyle" />
+            <!-- Supplier category -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
-            <!-- Supplier field -->
-            <EditText
-                android:id="@+id/edit_supplier"
-                android:hint="@string/hint_movie_supplier"
-                android:layout_width="0dp"
-                android:layout_weight="2"
-                android:paddingLeft="4dp"
-                android:inputType="textCapWords"
-                style="@style/EditorFieldStyle" />
+                <!-- Label -->
+                <TextView
+                    android:text="@string/category_supplier"
+                    style="@style/CategoryStyle" />
 
-        </LinearLayout>
+                <!-- Supplier field -->
+                <EditText
+                    android:id="@+id/edit_supplier"
+                    android:hint="@string/hint_movie_supplier"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:paddingLeft="4dp"
+                    android:inputType="textCapWords"
+                    style="@style/EditorFieldStyle" />
 
-        <!-- Image category -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="16dp">
-
-            <!-- Label -->
-            <TextView
-                android:text="@string/category_image"
-                style="@style/CategoryStyle" />
-
-            <ImageView
-                android:id="@+id/image"
-                android:layout_width="56dp"
-                android:layout_height="56dp"
-                android:layout_marginRight="36dp"/>
+            </LinearLayout>
 
             <Button
                 android:id="@+id/button_get_photo"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/button_get_photo"
                 style="@style/ButtonStyle"/>
 
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_sell"
+                android:onClick="decrementQuantity"
+                style="@style/ButtonStyle"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_shipment_received"
+                android:onClick="incrementQuantity"
+                style="@style/ButtonStyle"/>
+
         </LinearLayout>
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/button_sell"
-            android:onClick="decrementQuantity"
-            style="@style/ButtonStyle"/>
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/button_shipment_received"
-            android:onClick="incrementQuantity"
-            style="@style/ButtonStyle"/>
 
     </LinearLayout>
 
